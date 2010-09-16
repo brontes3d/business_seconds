@@ -1,0 +1,9 @@
+business_day_starts: "09:00:00"
+business_day_ends: "17:00:00"
+holidays:
+-  thanksgiving_2008:
+    start: "11/27/2008 00:00:00"
+    end: "11/28/2008 23:59:59"
+-  random_half_day_monday:
+    start: "11/24/2008 00:00:00"
+    end: "11/24/2008 12:00:00"

@@ -1,0 +1,15 @@
+= Business Seconds
+
+calculate durations and timespans in terms of working hours (holidays excluded)
+	
+= Example usage
+	
+	#instantiate calculator
+	bs = BusinessSeconds.new(YAML.load_file("path_to/example_config.yml"))
+
+	#returns array of 2 things: [days, seconds]  
+	bs.calculate(old_time, new_time, "Eastern Time (US & Canada)")
+	
+Copyright (c) 2009-2010 3M. All rights reserved. Released under the MIT license.
+
+Authored by Jacob Burkhart.
